@@ -1,0 +1,77 @@
+body {
+    background-color: #000000;
+    color:  #e06600;
+    font-family: Arial, sans-serif;
+  }
+  
+  .chart-container {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .button-group button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #3498db;
+    background-color: rgba(24, 100, 171, 0.1);
+   
+    color: #3498db;
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button-group button:hover {
+    background-color: #0056b3;
+  }
+  
+  #chart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .recharts-tooltip-wrapper .recharts-default-tooltip {
+    background-color: #333333 !important;
+    border: 1px solid  #fff !important;
+    color:  #ffffff!important;
+  }
+  
+  .modal {
+    background-color: #333333;
+    border-radius: 8px;
+    padding: 20px;
+    color:  #e06600;
+  }
+  
+  .modal h2 {
+    margin-top: 0;
+  }
+  
+  .modal p {
+    margin: 10px 0;
+  }
+  
+  .modal button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff7300;
+    color:  #e06600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .modal button:hover {
+    background-color: #e06600;
+  }
+  
