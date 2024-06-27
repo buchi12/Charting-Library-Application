@@ -1,3 +1,58 @@
+Charting Library in React.js
+This project demonstrates a simple React.js application that utilizes the Recharts library to display interactive charts based on JSON data.
+
+Table of Contents
+Features
+Installation
+Usage
+Data Format
+Technologies Used
+Contributing
+License
+Features
+Display a line chart using Recharts.
+Support for daily, weekly, and monthly timeframe breakdowns.
+Zooming functionality for specific time periods.
+Click event handlers to display data details.
+Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+Install dependencies:
+
+bash
+Copy code
+npm install
+Usage
+Run the development server:
+
+bash
+Copy code
+npm start
+Open your browser and navigate to http://localhost:3000 to view the application.
+
+Use the timeframe selector buttons (Daily, Weekly, Monthly) to switch between different views.
+
+Interact with the chart by clicking on data points to see detailed information.
+
+Data Format
+The chart data is expected to be in JSON format and should include timestamp and value fields:
+
+json
+Copy code
+[
+  { "timestamp": "2023-01-01T00:00:00Z", "value": 10 },
+  { "timestamp": "2023-01-02T00:00:00Z", "value": 12 },
+  { "timestamp": "2023-01-03T00:00:00Z", "value": 5 }
+]
+Technologies Used
+React.js: Frontend JavaScript library for building user interfaces.
+Recharts: A composable charting library built on React components.
+HTML5/CSS3: For structure and styling.
+Contributing
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
